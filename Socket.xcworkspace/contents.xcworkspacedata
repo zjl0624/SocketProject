@@ -2,9 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Common/Common.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Server/Server.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Client/Client.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UDPSocket/UDPSocket.xcodeproj">
    </FileRef>
 </Workspace>
