@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5F2E4A992046865700EF2EB1 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2E4A9A2046865700EF2EB1 /* libCommon.a */; };
-		5F2E4AB52046895200EF2EB1 /* libCommon.a in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E4AB42046895200EF2EB1 /* libCommon.a */; };
 		5F80A9682046812000EF6126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80A9672046812000EF6126 /* AppDelegate.m */; };
 		5F80A96B2046812000EF6126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80A96A2046812000EF6126 /* ViewController.m */; };
 		5F80A96E2046812000EF6126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F80A96C2046812000EF6126 /* Main.storyboard */; };
@@ -59,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		5F2E4A9A2046865700EF2EB1 /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F2E4AB42046895200EF2EB1 /* libCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCommon.a; sourceTree = "<group>"; };
 		5F80A9632046812000EF6126 /* UDPSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDPSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F80A9662046812000EF6126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F80A9672046812000EF6126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 		5F80A95A2046812000EF6126 = {
 			isa = PBXGroup;
 			children = (
-				5F2E4AB42046895200EF2EB1 /* libCommon.a */,
 				5F80A9652046812000EF6126 /* UDPSocket */,
 				5F80A97E2046812000EF6126 /* UDPSocketTests */,
 				5F80A9892046812000EF6126 /* UDPSocketUITests */,
@@ -318,7 +315,6 @@
 			files = (
 				5F80A9732046812000EF6126 /* LaunchScreen.storyboard in Resources */,
 				5F80A9702046812000EF6126 /* Assets.xcassets in Resources */,
-				5F2E4AB52046895200EF2EB1 /* libCommon.a in Resources */,
 				5F80A96E2046812000EF6126 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
