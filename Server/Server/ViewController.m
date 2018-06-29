@@ -75,6 +75,7 @@
 	[self.clientSocket writeData:data withTimeout:-1 tag:0];
 }
 - (IBAction)receivewAction:(id)sender {
+	[self.contentTextField resignFirstResponder];
 	[self.clientSocket readDataWithTimeout:-1 tag:0];
 }
 

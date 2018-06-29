@@ -73,6 +73,7 @@
 }
 
 - (IBAction)receiveAction:(id)sender {
+	[self.contentTextField resignFirstResponder];
 	[self.socket readDataWithTimeout:-1 tag:0];
 }
 @end

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,7 +42,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="192.168.10.17" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0w-km-N0c">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="127.0.0.1" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0w-km-N0c">
                                 <rect key="frame" x="127" y="66" width="168" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -64,9 +64,9 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6jV-9Q-PpD">
-                                <rect key="frame" x="63" y="210" width="232" height="30"/>
+                                <rect key="frame" x="63" y="210" width="200" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="232" id="KgN-9e-IR1"/>
+                                    <constraint firstAttribute="width" constant="200" id="KgN-9e-IR1"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8b-PJ-A8b">
-                                <rect key="frame" x="328" y="210" width="31" height="30"/>
+                                <rect key="frame" x="273" y="210" width="86" height="30"/>
                                 <state key="normal" title="发送"/>
                                 <connections>
                                     <action selector="sendAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wk0-IP-ai4"/>
@@ -109,6 +109,7 @@
                             <constraint firstItem="A0w-km-N0c" firstAttribute="leading" secondItem="qsJ-Ut-osR" secondAttribute="trailing" constant="26" id="1I6-AJ-teL"/>
                             <constraint firstItem="qsJ-Ut-osR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="3Ga-4o-88b"/>
                             <constraint firstItem="Z8b-PJ-A8b" firstAttribute="top" secondItem="Mz1-AN-4y1" secondAttribute="bottom" constant="64" id="7rH-1f-wcC"/>
+                            <constraint firstItem="Z8b-PJ-A8b" firstAttribute="leading" secondItem="6jV-9Q-PpD" secondAttribute="trailing" constant="10" id="EtD-JJ-D7H"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OB2-7p-4aC" secondAttribute="bottom" id="Evp-6i-3Fo"/>
                             <constraint firstItem="A0w-km-N0c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="JDS-Hk-imC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mz1-AN-4y1" secondAttribute="trailing" id="KNe-yK-uye"/>
