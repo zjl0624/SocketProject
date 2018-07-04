@@ -15,4 +15,7 @@
 
 
 + (UIViewController *)topViewController;
+
+
++ (NSString *)getIPAddress;
 @end
